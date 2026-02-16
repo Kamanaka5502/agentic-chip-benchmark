@@ -1,3 +1,6 @@
+# Copyright 2026 Samantha Revita-Wagner
+# Licensed under the Apache License, Version 2.0
+
 import asyncio
 from harness.traffic_simulator import TrafficSimulator
 from workloads.refactor_loop import RefactorLoop
