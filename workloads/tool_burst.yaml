@@ -1,0 +1,24 @@
+name: tool_burst
+
+description: |
+  Short reasoning cycles with frequent tool calls.
+  High QPS, low token counts.
+
+steps: 40
+sessions: 8
+concurrency: 8
+
+tokens_in:
+  base: 250
+  growth_per_step: 10
+
+tokens_out:
+  mean: 120
+  variance: 30
+
+traffic_profile:
+  type: tool_heavy
+  context_growth: bounded
+  tool_calls: true
+
+seed: 42

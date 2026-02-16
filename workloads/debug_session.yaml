@@ -1,0 +1,24 @@
+name: debug_session
+
+description: |
+  Long-context debugging session with sustained memory.
+  Large prompt, moderate completion.
+
+steps: 15
+sessions: 2
+concurrency: 2
+
+tokens_in:
+  base: 4000
+  growth_per_step: 50
+
+tokens_out:
+  mean: 600
+  variance: 120
+
+traffic_profile:
+  type: long_context
+  context_growth: minimal
+  tool_calls: false
+
+seed: 42
