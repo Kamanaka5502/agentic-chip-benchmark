@@ -134,3 +134,7 @@ The architecture is extensible and adapter-driven, enabling integration with rea
 ## Version
 
 v1-baseline — Async multi-turn traffic simulator with percentile latency, token throughput, workload abstraction, and mock adapter.
+
+
+## License
+Apache License 2.0 © 2026 Samantha Revita-Wagner
